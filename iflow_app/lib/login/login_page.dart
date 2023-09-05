@@ -32,8 +32,18 @@ class _LoginPageState extends State<LoginPage> {
                 hintText: 'enter email',
               ),
               autofocus: false,
-            ))
+            )),
         // textfield password
+        Container(
+            width: 300,
+            child: const TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'password',
+                hintText: 'password',
+              ),
+              autofocus: false,
+            ))
       ]))),
     );
   }
